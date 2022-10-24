@@ -1,52 +1,60 @@
 .Header{
     width: 100%;
-    background-color: orange;
+    background-color: rgba(0, 0, 0, 0.854);
     padding: 1rem;
-
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-
-
+    color:white;
 }
-
-.Header-h1{
-    background-color: aqua;
-}
+.Header-h1{}
 .Header-a{}
 .Header-button{
-    background-color: crimson;
     display: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
 }
 .Header-svg{
     width: 2rem;
     height: 2rem;
+    fill: white;
 }
-
-.Header-nav{
-    background-color: bisque;
-}
+.Header-nav{}
 .Header-ul{
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
     align-items: center;
+    list-style: none;
 }
 .Header-li{
     margin: 0 .8rem;
 }
 
 @media (max-width: 480px ) {
+    .Header{
+        justify-content: space-between;
+    }
     .Header-button{
         display: block;
     }
     .Header-nav{
         width: 100%;
-        display: none;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        height: 0vh;
+        opacity: 0;
+        overflow: hidden;
+        transition: all .5s ease;
     }
     .Header-nav.active{
-        display: block;
+        height: 20vh;
+        opacity: 1;
     }
     .Header-ul{
         flex-direction: column;

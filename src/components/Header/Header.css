@@ -7,9 +7,10 @@
     justify-content: space-around;
     align-items: center;
     color:white;
+    min-height: 10vh;
 }
-.Header-h1{}
-.Header-a{}
+/* .Header-h1{}
+.Header-a{} */
 .Header-button{
     display: none;
     border: none;
@@ -22,7 +23,7 @@
     height: 2rem;
     fill: white;
 }
-.Header-nav{}
+/* .Header-nav{} */
 .Header-ul{
     display: flex;
     flex-flow: row nowrap;
@@ -55,11 +56,12 @@
     .Header-nav.active{
         height: 20vh;
         opacity: 1;
+        margin: 1rem;
     }
     .Header-ul{
         flex-direction: column;
     }
     .Header-li{
-        margin: 1rem 0;
+        margin: 0.6rem 0;
     }
 }

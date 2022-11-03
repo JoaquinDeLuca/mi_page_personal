@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <header className='Header'>
         <h1 className='Header-h1'>
-            <a className='header-a'>Joaquin</a>
+            <a className='header-a'>Joaquin Dev</a>
         </h1>
 
         <button className='Header-button' onClick={handleMenu}>
@@ -22,8 +22,10 @@ export default function Header() {
         
         <nav className={`Header-nav ${menu ? "active" : ""}`}>
             <ul className='Header-ul'>
-                <li className='Header-li'>Home</li>
-                <li className='Header-li'>Poyectos</li>
+                <li className='Header-li'>Inicio</li>
+                <li className='Header-li'>Sobre mí</li>
+                <li className='Header-li'>Proyectos</li>
+                <li className='Header-li'>Tecnologias</li>
                 <li className='Header-li'>Contacto</li>
             </ul>
         </nav>

@@ -1,6 +1,6 @@
 .Header{
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.854);
+    background-color: var(--DarckBlue);
     padding: 1rem;
     display: flex;
     flex-flow: row wrap;

@@ -10,9 +10,9 @@ export default function Header() {
 
   return (
     <header className='Header'>
-        <h1 className='Header-h1'>
+        <h2 className='Header-h1'>
             <a className='header-a'>Joaquin Dev</a>
-        </h1>
+        </h2>
 
         <button className='Header-button' onClick={handleMenu}>
             <svg className='Header-svg' xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">

@@ -1,0 +1,27 @@
+.homeContainer{
+    background: var(--DarckBlue);
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../Assets/Img/wave_background.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.homeInfo{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.homeImgJoaquin{
+    width: 300px;
+}
+
+@media (min-width:1024px) {
+    .homeContainer{
+        flex-direction: row;
+    }
+}
+

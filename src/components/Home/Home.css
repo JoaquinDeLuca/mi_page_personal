@@ -1,19 +1,21 @@
 .homeContainer{
     background: var(--DarckBlue);
-    height: 82vh;
+    height: 90vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    background-image: url(../../Assets/Img/wave_background.png);
+    background-image: url(../../Assets/Img/bgremove.png);
     background-repeat: no-repeat;
     background-position: bottom;
+    background-size: 150% 20%;
 }
 .homeInfo{
     color: white;
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-bottom: 100px;
 }
 .homeImgJoaquin{
     width: 300px;
@@ -22,6 +24,9 @@
 @media (min-width:1024px) {
     .homeContainer{
         flex-direction: row;
+    }
+    .homeInfo{
+        margin-bottom: 0px;
     }
 }
 

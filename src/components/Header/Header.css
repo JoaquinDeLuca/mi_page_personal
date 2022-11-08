@@ -7,7 +7,7 @@
     justify-content: space-around;
     align-items: center;
     color:white;
-    min-height: 10vh;
+    height: 10vh;
 }
 /* .Header-h1{}
 .Header-a{} */
@@ -54,14 +54,15 @@
         transition: all .5s ease;
     }
     .Header-nav.active{
-        height: 20vh;
+        height: 25vh;
         opacity: 1;
         margin: 1rem;
+        z-index: 1;
     }
     .Header-ul{
         flex-direction: column;
     }
     .Header-li{
-        margin: 0.6rem 0;
+        margin: 0.7rem 0;
     }
 }

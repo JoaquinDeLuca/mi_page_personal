@@ -1,0 +1,25 @@
+.about{
+    background-color: var(--DarckBlue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 92vh;
+}
+.aboutContainer{
+    max-width: 70rem;
+    padding: 10px;
+    /* background-color: aqua; */
+}
+.aboutH2{
+    font-size: 30px;
+    color: white;
+    margin: 10px 0;
+    /* border-bottom: 5px solid black; */
+    text-decoration: underline;
+}
+.aboutP{
+    color: white;
+    margin: 12px 0;
+    font-size: 19px;
+}

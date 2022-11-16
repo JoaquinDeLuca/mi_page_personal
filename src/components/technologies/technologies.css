@@ -1,0 +1,24 @@
+.technologies{
+    background-color: var(--DarckBlue);
+}
+.technologiesContainer{
+    max-width: 70rem;
+    padding: 10px;
+}
+.technologiesH2{
+    color: white;
+    text-decoration: underline;
+    font-size: 30px;
+}
+.technologiesCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.technologiesImg{
+    width: 30%;
+    height: 80%;
+}
+.technologiesP{
+    color: white;
+}

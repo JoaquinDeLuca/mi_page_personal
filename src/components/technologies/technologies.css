@@ -1,24 +1,99 @@
 .technologies{
     background-color: var(--DarckBlue);
+    /* background-color: lightblue; */
+    min-height: 90vh;
 }
 .technologiesContainer{
     max-width: 70rem;
     padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: lightgreen; */
+}
+.technologiesCardContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .technologiesH2{
     color: white;
     text-decoration: underline;
     font-size: 30px;
+    width: 100%;
+}
+.technologiesP{
+    color: white;
+    font-size: 18px;
 }
 .technologiesCard{
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin: 12px;
+    padding: 5px;
+    border: 2px solid #44475a;
+    width: 35%;
+    box-shadow: 2px 2px 10px #1b2f61;
+    transition: all 0.5s;
+
+}
+.technologiesCard:hover{
+    transform: scale(1.1);
 }
 .technologiesImg{
     width: 30%;
     height: 80%;
+    margin-right: 5px;
 }
 .technologiesP{
     color: white;
+    margin: 12px 0;
+    width: 100%;
+}
+.technologiesTitle{
+    color: white;
+    margin: 10px 0 0 0 ;
+}
+.technologiesLearning{
+    margin: auto;
+    width: 35%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 2px 2px 10px #1b2f61;
+    border: 2px solid #44475a;
+    transition: all 0.5s;
+}
+.technologiesLearning:hover{
+    transform: scale(1.1);
+}
+.technologiesLearningOne{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+@media (min-width:1024px) {
+    .technologies{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .technologiesContainer{
+        justify-content: start;
+    }
+    .technologiesCard{
+        width: 32%;
+        padding: 10px 0;
+    }
 }

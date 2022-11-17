@@ -9,6 +9,7 @@ import Redux from '../../Assets/Img/redux.png';
 import Express from '../../Assets/Img/express.png';
 import Github from '../../Assets/Img/github.png';
 import Bootstrap from '../../Assets/Img/bootstrap..png';
+import Nextjs from '../../Assets/Img/nextjs.png';
 
 export default function technologies() {
 
@@ -71,12 +72,22 @@ export default function technologies() {
     <div className='technologies'>
         <div className='technologiesContainer'>
             <h2 className='technologiesH2'>Tecnologías</h2>
-            {techs.map( tech => 
-                <div className='technologiesCard' key={tech.id} >
-                    <img className='technologiesImg' src={tech.src} alt={tech.title}/>
-                    <p className='technologiesP'>{tech.title}</p>
-                </div>
-            )}
+            <p className='technologiesP'>Estas son las tecnologías con las que he trabajado y usado en mis proyectos.</p>
+            <div className='technologiesCardContainer'>
+                {techs.map( tech => 
+                    <div className='technologiesCard' key={tech.id} >
+                        <img className='technologiesImg' src={tech.src} alt={tech.title}/>
+                        <p className='technologiesTitle'>{tech.title}</p>
+                    </div>
+                )}
+            </div>
+            <div className='technologiesLearningOne'>
+                <h4 className='technologiesP'>Estoy aprendiendo...</h4>
+            </div>
+            <div className='technologiesLearning'>
+                <img className='technologiesImg' src={Nextjs} alt='nextjs' />
+                <p className='technologiesTitle'>NextJS</p>
+            </div>
         </div>
     </div>
   )

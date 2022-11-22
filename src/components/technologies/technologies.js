@@ -10,6 +10,8 @@ import Express from '../../Assets/Img/express.png';
 import Github from '../../Assets/Img/github.png';
 import Bootstrap from '../../Assets/Img/bootstrap..png';
 import Nextjs from '../../Assets/Img/nextjs.png';
+import Postman from '../../Assets/Img/postman.png';
+import Git from '../../Assets/Img/git.png';
 
 export default function technologies() {
 
@@ -64,6 +66,16 @@ export default function technologies() {
             src: Github,
             title: "GitHub"
         },    
+        {
+            id: 11,
+            src: Git,
+            title: "Git"
+        },    
+        {
+            id: 12,
+            src: Postman,
+            title: "Postman"
+        },    
     ]
 
 
@@ -82,7 +94,7 @@ export default function technologies() {
                 )}
             </div>
             <div className='technologiesLearningOne'>
-                <h4 className='technologiesP'>Estoy aprendiendo...</h4>
+                <h4 className='technologiesP'>Estoy aprendiendo</h4>
             </div>
             <div className='technologiesLearning'>
                 <img className='technologiesImg' src={Nextjs} alt='nextjs' />

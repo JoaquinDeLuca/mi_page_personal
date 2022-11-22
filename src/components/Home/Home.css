@@ -1,14 +1,15 @@
 .homeContainer{
-    background: var(--DarckBlue);
+    background: #1c2638;
     height: 90vh;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    background-image: url(../../Assets/Img/bgremove.png);
+    /* background-image: url(../../Assets/Img/bgremove.png); */
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 150% 20%;
+    padding: 10px;
 }
 .homeInfo{
     color: white;

@@ -1,5 +1,5 @@
 .technologies{
-    background-color: var(--DarckBlue);
+    background-color: #1c2638;
     /* background-color: lightblue; */
     min-height: 90vh;
 }
@@ -21,7 +21,6 @@
 .technologiesH2{
     color: white;
     text-decoration: underline;
-    font-size: 30px;
     width: 100%;
 }
 .technologiesP{
@@ -29,6 +28,7 @@
     font-size: 18px;
 }
 .technologiesCard{
+    background-color: #0f172a;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,9 +36,9 @@
     border-radius: 10px;
     margin: 12px;
     padding: 5px;
-    border: 2px solid #44475a;
+    border: 2px solid #44475a95;
     width: 35%;
-    box-shadow: 2px 2px 10px #1b2f61;
+    box-shadow: 0px 5px 10px 3px #1b2f61;
     transition: all 0.5s;
 
 }
@@ -62,15 +62,15 @@
 .technologiesLearning{
     margin: auto;
     width: 35%;
-    /* background-color: aquamarine; */
+    background-color: #0f172a;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
     padding: 5px;
-    box-shadow: 2px 2px 10px #1b2f61;
-    border: 2px solid #44475a;
+    box-shadow: 0px 5px 10px 3px #1b2f61;
+    border: 2px solid #44475a95;
     transition: all 0.5s;
 }
 .technologiesLearning:hover{
@@ -93,7 +93,7 @@
         justify-content: start;
     }
     .technologiesCard{
-        width: 32%;
+        width: 30%;
         padding: 10px 0;
     }
 }

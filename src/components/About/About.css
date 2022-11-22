@@ -1,5 +1,5 @@
 .about{
-    background-color: var(--DarckBlue);
+    background-color:#1c2638;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,7 +12,6 @@
     /* background-color: aqua; */
 }
 .aboutH2{
-    font-size: 30px;
     color: white;
     margin: 10px 0;
     /* border-bottom: 5px solid black; */

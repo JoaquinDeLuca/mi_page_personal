@@ -25,6 +25,9 @@
     gap: 15px;
     width: 80%;
     margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #0f172a;
 }
 .contactTextarea{
     width: 100%;

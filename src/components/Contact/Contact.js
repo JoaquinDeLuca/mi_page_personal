@@ -25,7 +25,7 @@ export default function Contact() {
         <div className='contact'>
             <div className='contactContainer'>
                 <h2 className='contactH2'>Contacto</h2>
-                <p className='p'>contactame a traves del siguiente formulario o por medeio de <a className='a' target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/joaquindeluca/'>linkedin</a></p>
+                <p className='p'>Contáctame a través del siguiente formulario o por medio de <a className='a' target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/joaquindeluca/'>LinkedIn.</a></p>
 
                     <form className='contactForm' ref={form} onSubmit={sendEmail}>
                         <input className='contactinput' type="text" name="user_name" placeholder='Nombre' required/>

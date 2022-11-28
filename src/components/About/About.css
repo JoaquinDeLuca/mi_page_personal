@@ -16,9 +16,11 @@
     margin: 10px 0;
     /* border-bottom: 5px solid black; */
     text-decoration: underline;
+    text-align: center;
 }
 .aboutP{
     color: white;
     margin: 12px 0;
     font-size: 18px;
+    text-align: center; 
 }

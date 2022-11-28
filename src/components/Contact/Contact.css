@@ -7,6 +7,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    height: 90vh;
 }
 .contactH2{
     color: white;
@@ -49,7 +51,7 @@
 }
 
 .contactTextarea::placeholder {
-    color: rgba(255, 255, 255, 0.654);
+    border-color: rgba(255, 255, 255, 0.909);
 }
    
 .contactTextarea:focus::placeholder {
@@ -77,7 +79,7 @@
 }
 
 .contactinput::placeholder {
-    color: rgba(255, 255, 255, 0.654);
+    color: rgba(255, 255, 255, 0.542);
 }
    
 .contactinput:focus::placeholder {
@@ -105,7 +107,7 @@
         text-align: start;
     }
     .contactContainer{
-        align-items: flex-start;
+        align-items: center;
         margin: auto;
     }
 }

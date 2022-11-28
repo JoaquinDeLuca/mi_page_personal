@@ -1,4 +1,4 @@
-import './Projects.css'
+import './Proyects.css'
 import Amazing from '../../Assets/Img/Amazing-Events.png';
 import Petshop from '../../Assets/Img/Petshop.png';
 import Surface from '../../Assets/Img/Surface.png';
@@ -39,9 +39,10 @@ export default function Projects() {
   return (
     <div className="proyects">
         <div className="proyectsContainer">
-            <h2 className="projectsH2">Projectos</h2>
-            {proyects.map( (proyect, i) => 
-             <div key={i} className='proyectsContainerCard'>
+            <h2 className="projectsH2">Proyectos</h2>
+            <p className='proyectsP'>Mis proyectos hasta ahora</p>
+            {proyects.map( (proyect) => 
+             <div key={proyect.id} className='proyectsContainerCard'>
                 <div className='proyectsImgContainer'>
                     <img className='proyectsImg' src={proyect.src} alt={proyect.name}/>
                 </div>

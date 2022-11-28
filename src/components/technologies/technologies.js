@@ -94,7 +94,7 @@ export default function technologies() {
                 )}
             </div>
             <div className='technologiesLearningOne'>
-                <h4 className='technologiesP'>Estoy aprendiendo</h4>
+                <h4 className='technologiesP'>Estoy aprendiendo...</h4>
             </div>
             <div className='technologiesLearning'>
                 <img className='technologiesImg' src={Nextjs} alt='nextjs' />

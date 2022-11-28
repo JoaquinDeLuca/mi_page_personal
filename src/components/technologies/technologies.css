@@ -1,7 +1,7 @@
 .technologies{
     background-color: #1c2638;
     /* background-color: lightblue; */
-    min-height: 90vh;
+    padding-top:15px;
 }
 .technologiesContainer{
     max-width: 70rem;
@@ -21,11 +21,15 @@
 .technologiesH2{
     color: white;
     text-decoration: underline;
+    text-align: center;
     width: 100%;
 }
 .technologiesP{
     color: white;
     font-size: 18px;
+    text-align: center;
+    margin: 20px  0;
+    width: 100%;
 }
 .technologiesCard{
     background-color: #0f172a;
@@ -35,7 +39,7 @@
     flex-wrap: wrap;
     border-radius: 10px;
     margin: 12px;
-    padding: 5px;
+    padding: 7px;
     border: 2px solid #44475a95;
     width: 35%;
     box-shadow: 0px 5px 10px 3px #1b2f61;
@@ -49,11 +53,6 @@
     width: 30%;
     height: 80%;
     margin-right: 5px;
-}
-.technologiesP{
-    color: white;
-    margin: 12px 0;
-    width: 100%;
 }
 .technologiesTitle{
     color: white;

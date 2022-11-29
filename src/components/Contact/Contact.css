@@ -51,7 +51,7 @@
 }
 
 .contactTextarea::placeholder {
-    border-color: rgba(255, 255, 255, 0.909);
+    color: rgba(255, 255, 255, 0.542);
 }
    
 .contactTextarea:focus::placeholder {

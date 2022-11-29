@@ -22,7 +22,7 @@ export default function Contact() {
 
 
     return (
-        <div className='contact'>
+        <div className='contact' id='contact'>
             <div className='contactContainer'>
                 <h2 className='contactH2'>Contacto</h2>
                 <p className='p'>Contáctame a través del siguiente formulario o por medio de <a className='a' target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/joaquindeluca/'>LinkedIn.</a></p>

@@ -81,7 +81,7 @@ export default function technologies() {
 
 
   return (
-    <div className='technologies'>
+    <div className='technologies' id='technologies'>
         <div className='technologiesContainer'>
             <h2 className='technologiesH2'>Tecnologías</h2>
             <p className='technologiesP'>Estas son las tecnologías con las que he trabajado y usado en mis proyectos.</p>

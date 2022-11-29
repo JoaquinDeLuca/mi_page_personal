@@ -37,7 +37,7 @@ export default function Projects() {
     ]
 
   return (
-    <div className="proyects">
+    <div className="proyects" id='proyects'>
         <div className="proyectsContainer">
             <h2 className="projectsH2">Proyectos</h2>
             <p className='proyectsP'>Mis proyectos hasta ahora</p>

@@ -6,7 +6,7 @@ import github from '../../Assets/Img/github2.png';
 
 export default function Home() {
   return (
-    <div className='homeContainer'>
+    <div className='homeContainer' id='home'>
         <div className='homeInfo'>
             <h1 className='homeH1'>Soy Desarrollador Web Full Stack</h1>
             <p className='homeP'>Me encanta trabajar en aplicaciones web utilizando tecnologias como MongoDB, Express, React, NodeJS</p>

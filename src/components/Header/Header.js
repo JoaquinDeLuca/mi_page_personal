@@ -1,11 +1,42 @@
 import React, { useState } from 'react'
 import "./Header.css"
+import { Link } from 'react-scroll'
+
 export default function Header() {
 
     const [menu, setMenu] = useState(false)
     const handleMenu = () => {
         setMenu(!menu)
     }
+
+    const navLink = [
+        {
+            id: 1,
+            nameNav: 'Inicio',
+            link:'home'
+        },
+        {
+            id: 2,
+            nameNav: 'Sobre mí',
+            link:'about'
+        },
+        {
+            id: 3,
+            nameNav: 'Proyectos',
+            link:'proyects'
+        },
+        {
+            id: 4,
+            nameNav: 'Tecnologías',
+            link:'technologies'
+        },
+        {
+            id: 5,
+            nameNav: 'Contacto',
+            link:'contact'
+        },
+    ]
+
 
 
   return (
@@ -28,11 +59,9 @@ export default function Header() {
         
         <nav className={`Header-nav ${menu ? "active" : ""}`}>
             <ul className='Header-ul'>
-                <li className='Header-li'>Inicio</li>
-                <li className='Header-li'>Sobre mí</li>
-                <li className='Header-li'>Proyectos</li>
-                <li className='Header-li'>Tecnologias</li>
-                <li className='Header-li'>Contacto</li>
+                {navLink.map(({id, nameNav, link}) => (
+                    <li key={id} className='Header-li'><Link onClick={handleMenu} to={link} spy={true} smooth={true} offset={-60} duration={500} > {nameNav} </Link></li>
+                ))}
             </ul>
         </nav>
     </header>

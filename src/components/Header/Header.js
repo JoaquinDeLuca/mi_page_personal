@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <header className='Header'>
         <h2 className='Header-h1'>
-            <a className='header-a'>Joaquin</a>
+            <p className='header-a'>Joaquin</p>
         </h2>
 
         <button className='Header-button' onClick={handleMenu}>

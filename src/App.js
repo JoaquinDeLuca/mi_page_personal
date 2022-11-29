@@ -1,5 +1,6 @@
 import './App.css';
-import Layout from './components/Layout/Layout';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Proyects from './components/Projects/Proyects';
@@ -9,13 +10,13 @@ import Contact from './components/Contact/Contact';
 function App() {
   return (
     <>
-    <Layout>
-      <Home/>
-      <About/>
-      <Proyects/>
-      <Technologies />
-      <Contact />
-    </Layout>
+      <Header/>
+        <Home/>
+        <About/>
+        <Proyects/>
+        <Technologies />
+        <Contact />
+      <Footer/>
     </>
   );
 }

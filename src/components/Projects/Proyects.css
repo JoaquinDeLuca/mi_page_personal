@@ -77,7 +77,7 @@
     .proyects{
         flex-direction: row;
         justify-content: center;
-        height: 93vh;
+        min-height: 93vh;
     }
     .proyectsContainer{
         display: flex;

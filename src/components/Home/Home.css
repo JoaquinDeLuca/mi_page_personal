@@ -1,6 +1,6 @@
 .homeContainer{
     background: #1c2638;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;

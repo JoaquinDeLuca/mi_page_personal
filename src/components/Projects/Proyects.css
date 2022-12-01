@@ -5,7 +5,6 @@
     align-items: center;
 }
 .proyectsContainer{
-    /* background-color: lightcoral; */
     max-width: 70rem;
     padding: 10px;
 }
@@ -29,8 +28,8 @@
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
-    box-shadow: 0px 5px 10px 5px #1b2f61;
-    border: 1px solid #44475a;
+    box-shadow: 0px 5px 10px 3px #1b2f61;
+    border: 2px solid #44475a95;
 }
 .proyectsImgContainer{
     width: 100%;
@@ -69,7 +68,6 @@
 }
    
 .proyectsBtn:active {
-    box-shadow: 0 0px #D81159;
     transform: translateY(3px);
 }  
 
@@ -77,7 +75,7 @@
     .proyects{
         flex-direction: row;
         justify-content: center;
-        min-height: 93vh;
+        min-height: 94vh;
     }
     .proyectsContainer{
         display: flex;

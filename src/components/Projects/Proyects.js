@@ -2,6 +2,7 @@ import './Proyects.css'
 import Amazing from '../../Assets/Img/Amazing-Events.png';
 import Petshop from '../../Assets/Img/Petshop.png';
 import Surface from '../../Assets/Img/Surface.png';
+import Mytinerary from '../../Assets/Img/Mytinerary-.png';
 
 export default function Projects() {
     
@@ -23,7 +24,7 @@ export default function Projects() {
         {
             id: "3",
             name: "My Tinerary",
-            src: Petshop,
+            src: Mytinerary,
             link: "https://mytinerary-eta.vercel.app/",
             repo: "https://github.com/JoaquinDeLuca/mytinerary-deluca-ochoa-ojeda"
         },

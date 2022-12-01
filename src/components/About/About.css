@@ -4,17 +4,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 93vh;
+    height: 94vh;
 }
 .aboutContainer{
     max-width: 70rem;
     padding: 10px;
-    /* background-color: aqua; */
 }
 .aboutH2{
     color: white;
     margin: 10px 0;
-    /* border-bottom: 5px solid black; */
     text-decoration: underline;
     text-align: center;
 }

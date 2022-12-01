@@ -11,8 +11,6 @@
     position: fixed;
     z-index: 1;
 }
-/* .Header-h1{}
-.Header-a{} */
 .Header-button{
     display: none;
     border: none;
@@ -25,7 +23,6 @@
     height: 2rem;
     fill: white;
 }
-/* .Header-nav{} */
 .Header-ul{
     display: flex;
     flex-flow: row nowrap;
@@ -36,6 +33,16 @@
 .Header-li{
     margin: 0 .8rem;
     cursor: pointer;
+}
+.header-a{
+    cursor: pointer;
+}
+.Header-nav .active{
+    /* color: #FCFCFC; */
+    border-bottom: 2px solid #FCFCFC;
+}
+.Header-nav .Header-li:hover{
+    border-bottom: 2px solid #FCFCFC;
 }
 
 @media (max-width: 480px ) {

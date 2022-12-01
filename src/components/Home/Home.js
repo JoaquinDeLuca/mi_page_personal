@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className='homeContainer' id='home'>
         <div className='homeInfo'>
-            <h1 className='homeH1'>Soy Desarrollador Web Full Stack</h1>
+            <span className='homeSpan'>Soy Desarrollador Web Full Stack</span>
             <p className='homeP'>Me encanta trabajar en aplicaciones web utilizando tecnologias como MongoDB, Express, React, NodeJS</p>
             <div className='homeIconContainer'>
               <a className='a' href='https://www.linkedin.com/in/joaquindeluca/' target='_blank' rel='noreferrer' ><img className='homeImgIcon' src={linkedin} alt='linkedin'/></a>

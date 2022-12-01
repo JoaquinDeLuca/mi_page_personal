@@ -42,7 +42,7 @@ export default function Header() {
   return (
     <header className='Header'>
         <h2 className='Header-h1'>
-            <p className='header-a'>Joaquin</p>
+            <p className='header-a'><Link to='home' spy={true} smooth={true} offset={-60} duration={500} >Joaquin</Link></p>
         </h2>
 
         <button className='Header-button' onClick={handleMenu}>

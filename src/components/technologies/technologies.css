@@ -1,0 +1,102 @@
+.technologies{
+    background-color: #1c2638;
+    /* background-color: lightblue; */
+    padding-top:15px;
+}
+.technologiesContainer{
+    max-width: 70rem;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: lightgreen; */
+}
+.technologiesCardContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.technologiesH2{
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    width: 100%;
+}
+.technologiesP{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px  0;
+    width: 100%;
+}
+.technologiesCard{
+    background-color: #0f172a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin: 12px;
+    padding: 7px;
+    border: 2px solid #44475a95;
+    width: 35%;
+    box-shadow: 0px 5px 10px 3px #1b2f61;
+    transition: all 0.5s;
+
+}
+.technologiesCard:hover{
+    transform: scale(1.1);
+}
+.technologiesImg{
+    width: 30%;
+    height: 80%;
+    margin-right: 5px;
+}
+.technologiesTitle{
+    color: white;
+    margin: 10px 0 0 0 ;
+}
+.technologiesLearning{
+    margin: auto;
+    width: 35%;
+    background-color: #0f172a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0px 5px 10px 3px #1b2f61;
+    border: 2px solid #44475a95;
+    transition: all 0.5s;
+}
+.technologiesLearning:hover{
+    transform: scale(1.1);
+}
+.technologiesLearningOne{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+@media (min-width:1024px) {
+    .technologies{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .technologiesContainer{
+        justify-content: start;
+    }
+    .technologiesCard{
+        width: 30%;
+        padding: 10px 0;
+    }
+    .technologiesLearning{
+        width: 30%;
+        padding: 10px 0;
+    }
+}

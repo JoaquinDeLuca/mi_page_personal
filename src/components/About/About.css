@@ -1,0 +1,24 @@
+.about{
+    background-color:#1c2638;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 94vh;
+}
+.aboutContainer{
+    max-width: 70rem;
+    padding: 10px;
+}
+.aboutH2{
+    color: white;
+    margin: 10px 0;
+    text-decoration: underline;
+    text-align: center;
+}
+.aboutP{
+    color: white;
+    margin: 12px 0;
+    font-size: 18px;
+    text-align: center; 
+}

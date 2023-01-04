@@ -12,6 +12,7 @@ import Bootstrap from '../../Assets/Img/bootstrap..png';
 import Nextjs from '../../Assets/Img/nextjs.png';
 import Postman from '../../Assets/Img/postman.png';
 import Git from '../../Assets/Img/git.png';
+import Typescript from '../../Assets/Img/typescript.png'
 
 export default function technologies() {
 
@@ -75,7 +76,7 @@ export default function technologies() {
             id: 12,
             src: Postman,
             title: "Postman"
-        },    
+        },
     ]
 
 
@@ -99,6 +100,10 @@ export default function technologies() {
             <div className='technologiesLearning'>
                 <img className='technologiesImg' src={Nextjs} alt='nextjs' />
                 <p className='technologiesTitle'>NextJS</p>
+            </div>
+            <div className='technologiesLearning'>
+                <img className='technologiesImg' src={Typescript} alt='Typescript' />
+                <p className='technologiesTitle'>Typescript</p>
             </div>
         </div>
     </div>

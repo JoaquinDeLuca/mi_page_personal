@@ -26,7 +26,7 @@ export default function Projects() {
             name: "My Tinerary",
             src: Mytinerary,
             link: "https://mytinerary-eta.vercel.app/",
-            repo: "https://github.com/JoaquinDeLuca/mytinerary-deluca-ochoa-ojeda"
+            repo: "https://github.com/JoaquinDeLuca/mytinerary-web"
         },
         {
             id: "4",

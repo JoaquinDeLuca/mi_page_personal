@@ -6,18 +6,13 @@ export default function About() {
       <div className='aboutContainer'>
         <h2 className='aboutH2'>Sobre Mí</h2>
         <p className='aboutP'>
-          Soy desarrollador web y trabajo tanto en programación backend como frontend. Emocionado por mejorar mis habilidades y   aprender nuevas tecnologías. Estoy abierto a aprender y trabajar con cualquier tecnología web.
+        Como desarrollador web, tengo experiencia en programación tanto backend como frontend. Estoy motivado por mejorar mis habilidades y aprender nuevas tecnologías. Soy flexible y dispuesto a trabajar con cualquier tecnología web.
         </p>
         <p className='aboutP'>
-          🔭 Mi objetivo es seguir mejorando mis habilidades como desarrollador,
-          aprender nuevas tecnologías como Next.js, TypeScript, entre otras y avanzar día a día. Me gusta mucho
-          trabajar en equipo porque en conjunto es cuando más nos
-          enriquecemos de conocimientos y aprendemos unos con otros.
+          🔭 Mi objetivo es seguir creciendo como profesional y ampliar mis conocimientos en tecnologías como Next.js y TypeScript. Trabajar en equipo es una parte importante para mí, ya que creo que es donde se pueden intercambiar conocimientos y aprender de otros.
         </p>
         <p className='aboutP'>
-          🔎 Me encuentro en búsqueda activa de insertarme en el mundo IT para
-          poder crecer profesionalmente y dar soluciones a los desafíos que me
-          propongan.
+          🔎 Estoy emocionado por unirme al mundo IT y colaborar en la resolución de desafíos mientras crezco profesionalmente. Actualmente, estoy en búsqueda activa de una oportunidad que me permita lograr estos objetivos.
         </p>
       </div>
     </div>

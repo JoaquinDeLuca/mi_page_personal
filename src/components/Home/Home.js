@@ -13,7 +13,7 @@ export default function Home() {
             <div className='homeIconContainer'>
               <a className='a' href='https://www.linkedin.com/in/joaquindeluca/' target='_blank' rel='noreferrer' ><img className='homeImgIcon' src={linkedin} alt='linkedin'/></a>
               <a href='https://github.com/JoaquinDeLuca' target='_blank' rel='noreferrer'><img className='homeImgIcon' src={github} alt='Github'/></a>
-              <a href='https://drive.google.com/file/d/1alqFVTm4AmITCTJRwQF4o4LzLydYku6L/view?usp=sharing' target='_blank' rel='noreferrer' ><img className='homeImgIcon' src={cv} alt='cv'/></a>
+              <a href='https://drive.google.com/file/d/1tdPWyGDwOOX68flReUL9rX890M3eyMDL/view?usp=share_link' target='_blank' rel='noreferrer' ><img className='homeImgIcon' src={cv} alt='cv'/></a>
             </div>
         </div>
         <img className='homeImgJoaquin' src={Joaquin} alt='Joaquin'/> 

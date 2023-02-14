@@ -25,6 +25,7 @@
     color: white;
     font-size: 18px;
     font-family: Arial;
+    margin-left: 10px;
 }
 
 .proyectsContainerCard{
@@ -99,5 +100,8 @@
     }
     .projectsH2{
         margin: 0;
+    }
+    .proyectsName{
+        margin-left: 0;
     }
 }

@@ -3,6 +3,8 @@ import Amazing from '../../Assets/Img/Amazing-Events.png';
 import Petshop from '../../Assets/Img/Petshop.png';
 import Surface from '../../Assets/Img/Surface.png';
 import Mytinerary from '../../Assets/Img/Mytinerary-.png';
+import MytineraryApp from '../../Assets/Img/mytineraryMobile.png' 
+import Portfolio from '../../Assets/Img/portfolio.png'
 
 export default function Projects() {
     
@@ -34,6 +36,20 @@ export default function Projects() {
             src: Surface,
             link: "https://surface-ashen.vercel.app/",
             repo: "https://github.com/JoaquinDeLuca/surface"
+        },
+        {
+            id: "5",
+            name: "My Tinerary Mobile",
+            src: MytineraryApp,
+            link: "",
+            repo: "https://github.com/JoaquinDeLuca/my-tinerary-MobileApp"
+        },
+        {
+            id: "6",
+            name: "Portfolio",
+            src: Portfolio,
+            link: "https://joaquin-de-luca.vercel.app/",
+            repo: "https://github.com/JoaquinDeLuca/mi_page_personal"
         }
     ]
 
@@ -48,6 +64,7 @@ export default function Projects() {
                     <img className='proyectsImg' src={proyect.src} alt={proyect.name}/>
                 </div>
                 <div className='proyectsButtons'>
+                    <p className='proyectsName'>{proyect.name}</p>
                     <button className='proyectsBtn' onClick={ () => window.open(proyect.link)}>Demo</button>
                     <button className='proyectsBtn' onClick={ () => window.open(proyect.repo)}>GitHub</button>
                 </div>

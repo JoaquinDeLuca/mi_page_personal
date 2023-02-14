@@ -21,6 +21,11 @@
     margin-bottom: 20px;
     text-align: center;
 }
+.proyectsName{
+    color: white;
+    font-size: 18px;
+    font-family: Arial;
+}
 
 .proyectsContainerCard{
     margin-bottom: 30px;
@@ -46,6 +51,7 @@
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     border-radius: 0 0 10px 10px;
 }
 .proyectsBtn {

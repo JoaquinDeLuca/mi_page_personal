@@ -12,7 +12,7 @@
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAF)
 
 ## Vista previa del proyecto
-Si quieres hechas un vistazo al proyecto, te recomiendo:
+Si quieres hechar un vistazo al proyecto, te recomiendo:
 
 ![sobre mi](https://user-images.githubusercontent.com/110680187/211701566-78ce95d9-835c-42f9-aa08-2fc94034c2ae.png)
 ![tecnologias](https://user-images.githubusercontent.com/110680187/211701627-bad86767-66a7-471c-b3e3-6f2646665524.png)

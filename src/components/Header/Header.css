@@ -10,6 +10,8 @@
     min-height: 8vh;
     position: fixed;
     z-index: 1;
+    background-color: #0f172ad8;
+    backdrop-filter: blur(10px);
 }
 .Header-button{
     display: none;
@@ -48,7 +50,6 @@
 @media (max-width: 480px ) {
     .Header{
         justify-content: space-between;
-        background-color: #0f172ad8;
         backdrop-filter: blur(30px);
     }
     .Header-button{

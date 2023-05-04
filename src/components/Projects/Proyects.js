@@ -4,7 +4,7 @@ import Petshop from '../../Assets/Img/Petshop.png';
 import Surface from '../../Assets/Img/Surface.png';
 import Mytinerary from '../../Assets/Img/Mytinerary-.png';
 import MytineraryApp from '../../Assets/Img/mytineraryMobile.png'
-import PeliFLix from '../../Assets/Img/peliflix.png'
+// import PeliFLix from '../../Assets/Img/peliflix.png'
 import SpeakerShop from '../../Assets/Img/Speakershop.png'
 // import Portfolio from '../../Assets/Img/portfolio.png'
 
@@ -39,13 +39,13 @@ export default function Projects() {
             link: "",
             repo: "https://github.com/JoaquinDeLuca/my-tinerary-MobileApp"
         },
-        {
-            id: "4",
-            name: "PeliFLix",
-            src: PeliFLix,
-            link: "https://challenge-peliflix.vercel.app/",
-            repo: "https://github.com/JoaquinDeLuca/Challenge"
-        },
+        // {
+        //     id: "4",
+        //     name: "PeliFLix",
+        //     src: PeliFLix,
+        //     link: "https://challenge-peliflix.vercel.app/",
+        //     repo: "https://github.com/JoaquinDeLuca/Challenge"
+        // },
         {
             id: "5",
             name: "Amazing Events",

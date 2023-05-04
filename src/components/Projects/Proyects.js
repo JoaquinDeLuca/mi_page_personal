@@ -3,54 +3,70 @@ import Amazing from '../../Assets/Img/Amazing-Events.png';
 import Petshop from '../../Assets/Img/Petshop.png';
 import Surface from '../../Assets/Img/Surface.png';
 import Mytinerary from '../../Assets/Img/Mytinerary-.png';
-import MytineraryApp from '../../Assets/Img/mytineraryMobile.png' 
-import Portfolio from '../../Assets/Img/portfolio.png'
+import MytineraryApp from '../../Assets/Img/mytineraryMobile.png'
+// import PeliFLix from '../../Assets/Img/peliflix.png'
+import SpeakerShop from '../../Assets/Img/Speakershop.png'
+// import Portfolio from '../../Assets/Img/portfolio.png'
 
 export default function Projects() {
     
     const proyects = [
         {
+            id: "0",
+            name: "Speaker Shop",
+            src: SpeakerShop,
+            link: "https://store-five-pied.vercel.app/",
+            repo: "https://github.com/JoaquinDeLuca/store"
+        },
+        {
             id: "1",
-            name: "Amazing Events",
-            src: Amazing,
-            link: "https://joaquindeluca.github.io/amazing-events/",
-            repo: "https://github.com/JoaquinDeLuca/amazing-events"
-        },
-        {
-            id: "2",
-            name: "Petshop",
-            src: Petshop,
-            link: "https://mindy-petshop-rho.vercel.app/",
-            repo: "https://github.com/JoaquinDeLuca/mindy_petshop"
-        },
-        {
-            id: "3",
-            name: "My Tinerary",
-            src: Mytinerary,
-            link: "https://mytinerary-eta.vercel.app/",
-            repo: "https://github.com/JoaquinDeLuca/mytinerary-web"
-        },
-        {
-            id: "4",
             name: "Surface",
             src: Surface,
             link: "https://surface-ashen.vercel.app/",
             repo: "https://github.com/JoaquinDeLuca/surface"
         },
         {
-            id: "5",
-            name: "My Tinerary Mobile",
+            id: "2",
+            name: "My Tinerary",
+            src: Mytinerary,
+            link: "https://mytinerary-eta.vercel.app/",
+            repo: "https://github.com/JoaquinDeLuca/mytinerary-web"
+        },
+        {
+            id: "3",
+            name: "My Tinerary App",
             src: MytineraryApp,
             link: "",
             repo: "https://github.com/JoaquinDeLuca/my-tinerary-MobileApp"
         },
+        // {
+        //     id: "4",
+        //     name: "PeliFLix",
+        //     src: PeliFLix,
+        //     link: "https://challenge-peliflix.vercel.app/",
+        //     repo: "https://github.com/JoaquinDeLuca/Challenge"
+        // },
+        {
+            id: "5",
+            name: "Amazing Events",
+            src: Amazing,
+            link: "https://joaquindeluca.github.io/amazing-events/",
+            repo: "https://github.com/JoaquinDeLuca/amazing-events"
+        },
         {
             id: "6",
-            name: "Portfolio",
-            src: Portfolio,
-            link: "https://joaquin-de-luca.vercel.app/",
-            repo: "https://github.com/JoaquinDeLuca/mi_page_personal"
-        }
+            name: "Petshop",
+            src: Petshop,
+            link: "https://mindy-petshop-rho.vercel.app/",
+            repo: "https://github.com/JoaquinDeLuca/mindy_petshop"
+        },
+        // {
+        //     id: "6",
+        //     name: "Portfolio",
+        //     src: Portfolio,
+        //     link: "https://joaquin-de-luca.vercel.app/",
+        //     repo: "https://github.com/JoaquinDeLuca/mi_page_personal"
+        // }
     ]
 
   return (

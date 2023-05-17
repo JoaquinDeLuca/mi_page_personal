@@ -1,0 +1,84 @@
+.header{
+    width: 100%;
+    background-color: var(--DarckBlue);
+    padding: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+    min-height: 8vh;
+    position: fixed;
+    z-index: 1;
+    background-color: #0f172ad8;
+    backdrop-filter: blur(10px);
+}
+.headerh1{
+    cursor: pointer;
+}
+.headerButton{
+    display: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+.headerSvg{
+    width: 2rem;
+    height: 2rem;
+    fill: white;
+}
+.headerUl{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.headerLi{
+    margin: 0 .8rem;
+    cursor: pointer;
+}
+.header-a{
+    cursor: pointer;
+}
+.headerNav .active{
+    /* color: #FCFCFC; */
+    border-bottom: 2px solid #FCFCFC;
+}
+.headerNav .headerLi:hover{
+    border-bottom: 2px solid #FCFCFC;
+}
+
+@media (max-width: 480px ) {
+    .header{
+        justify-content: space-between;
+        backdrop-filter: blur(30px);
+    }
+    .headerButton{
+        display: block;
+    }
+    .headerNav{
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        height: 0vh;
+        opacity: 0;
+        overflow: hidden;
+        transition: all .5s ease;
+    }
+    .headerNav.active{
+        height: 26vh;
+        opacity: 1;
+        margin: .9rem;
+        z-index: 1;
+    }
+    .headerUl{
+        flex-direction: column;
+    }
+    .headerLi{
+        margin: 0.7rem 0;
+    }
+}

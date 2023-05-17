@@ -1,11 +1,13 @@
-import './Proyects.css'
-import Amazing from '../../Assets/Img/Amazing-Events.png';
-import Petshop from '../../Assets/Img/Petshop.png';
-import Surface from '../../Assets/Img/Surface.png';
-import Mytinerary from '../../Assets/Img/Mytinerary-.png';
-import MytineraryApp from '../../Assets/Img/mytineraryMobile.png'
+'use client'
+import style from './Proyects.module.css'
+import Amazing from 'public/Images/Amazing-Events.png';
+import Petshop from 'public/Images/Petshop.png';
+import Surface from 'public/Images/Surface.png';
+import Mytinerary from 'public/Images/Mytinerary-.png';
+import MytineraryApp from 'public/Images/mytineraryMobile.png'
+import SpeakerShop from 'public/Images/Speakershop.png'
+import Image from 'next/image';
 // import PeliFLix from '../../Assets/Img/peliflix.png'
-import SpeakerShop from '../../Assets/Img/Speakershop.png'
 // import Portfolio from '../../Assets/Img/portfolio.png'
 
 export default function Projects() {
@@ -70,19 +72,19 @@ export default function Projects() {
     ]
 
   return (
-    <div className="proyects" id='proyects'>
-        <div className="proyectsContainer">
-            <h2 className="projectsH2">Proyectos</h2>
-            <p className='proyectsP'>Mis proyectos hasta ahora</p>
+    <div className={style.proyects} id='proyects'>
+        <div className={style.proyectsContainer}>
+            <h2 className={style.projectsH2}>Proyectos</h2>
+            <p className={style.proyectsP}>Mis proyectos hasta ahora</p>
             {proyects.map( (proyect) => 
-             <div key={proyect.id} className='proyectsContainerCard'>
-                <div className='proyectsImgContainer'>
-                    <img className='proyectsImg' src={proyect.src} alt={proyect.name}/>
+             <div key={proyect.id} className={style.proyectsContainerCard}>
+                <div className={style.proyectsImgContainer}>
+                    <Image  className={style.proyectsImg} src={proyect.src} alt={proyect.name}/>
                 </div>
-                <div className='proyectsButtons'>
-                    <p className='proyectsName'>{proyect.name}</p>
-                    <button className='proyectsBtn' onClick={ () => window.open(proyect.link)}>Demo</button>
-                    <button className='proyectsBtn' onClick={ () => window.open(proyect.repo)}>GitHub</button>
+                <div className={style.proyectsButtons}>
+                    <p className={style.proyectsName}>{proyect.name}</p>
+                    <button className={style.proyectsBtn} onClick={ () => window.open(proyect.link)}>Demo</button>
+                    <button className={style.proyectsBtn} onClick={ () => window.open(proyect.repo)}>GitHub</button>
                 </div>
              </div>
             )}

@@ -1,4 +1,4 @@
-.Header{
+.header{
     width: 100%;
     background-color: var(--DarckBlue);
     padding: 1rem;
@@ -13,49 +13,52 @@
     background-color: #0f172ad8;
     backdrop-filter: blur(10px);
 }
-.Header-button{
+.headerh1{
+    cursor: pointer;
+}
+.headerButton{
     display: none;
     border: none;
     background-color: transparent;
     cursor: pointer;
 
 }
-.Header-svg{
+.headerSvg{
     width: 2rem;
     height: 2rem;
     fill: white;
 }
-.Header-ul{
+.headerUl{
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
     align-items: center;
     list-style: none;
 }
-.Header-li{
+.headerLi{
     margin: 0 .8rem;
     cursor: pointer;
 }
 .header-a{
     cursor: pointer;
 }
-.Header-nav .active{
+.headerNav .active{
     /* color: #FCFCFC; */
     border-bottom: 2px solid #FCFCFC;
 }
-.Header-nav .Header-li:hover{
+.headerNav .headerLi:hover{
     border-bottom: 2px solid #FCFCFC;
 }
 
 @media (max-width: 480px ) {
-    .Header{
+    .header{
         justify-content: space-between;
         backdrop-filter: blur(30px);
     }
-    .Header-button{
+    .headerButton{
         display: block;
     }
-    .Header-nav{
+    .headerNav{
         width: 100%;
         display: flex;
         flex-flow: column nowrap;
@@ -66,16 +69,16 @@
         overflow: hidden;
         transition: all .5s ease;
     }
-    .Header-nav.active{
+    .headerNav.active{
         height: 26vh;
         opacity: 1;
         margin: .9rem;
         z-index: 1;
     }
-    .Header-ul{
+    .headerUl{
         flex-direction: column;
     }
-    .Header-li{
+    .headerLi{
         margin: 0.7rem 0;
     }
 }

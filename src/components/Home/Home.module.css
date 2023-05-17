@@ -16,14 +16,12 @@
     /* margin-bottom: 100px; */
 }
 .homeImgJoaquin{
-    width: 240px;
     margin: 20px;
 }
 .homeIconContainer{
     margin-top: 15px;
 }
 .homeImgIcon{
-    width: 45px;
     margin: 15px;
     color: white;
     transition: all 0.5s;
@@ -70,7 +68,6 @@
         font-size: 18px;
     }
     .homeImgJoaquin{
-        width: 300px;
         padding: 15px
     }
     .homeIconContainer{

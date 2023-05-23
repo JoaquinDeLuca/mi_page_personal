@@ -1,32 +1,33 @@
 "use client";
-import { useRef } from "react";
+import { FormEvent, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import style from "./Contact.module.css";
 import Link from "next/link";
 
 export default function Contact() {
-  const form = useRef();
+  const form = useRef<HTMLFormElement>(null);
 
-  const sendEmail = (e) => {
+  const sendEmail = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        process.env.REACT_APP_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
-        form.current,
-        process.env.REACT_APP_PUBLIC_KEY
-      )
-      .then(
-        (result) => {
-          alert("Su email se envio con exito", result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-
-    e.target.reset();
+    if(form.current){
+      emailjs
+        .sendForm(
+          process.env.NEXT_PUBLIC_SERVICE_ID!,
+          process.env.NEXT_PUBLIC_TEMPLATE_ID!,
+          form.current,
+          process.env.NEXT_PUBLIC_PUBLIC_KEY!
+        )
+        .then(
+          (resul) => {
+            alert("Su email se envio con exito " + resul.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+      form.current.reset();
+    }
   };
 
   return (

@@ -18,7 +18,7 @@ export default function Home() {
               <Link href='https://drive.google.com/file/d/1tdPWyGDwOOX68flReUL9rX890M3eyMDL/view?usp=share_link' target='_blank'><Image width={45} className={style.homeImgIcon} src={cv} alt='cv'/></Link>
             </div>
         </div>
-        <Image width={280} height={280} className={style.homeImgJoaquin} src={Joaquin} alt='Joaquin'/> 
+        <Image priority={true} width={280} height={280} className={style.homeImgJoaquin} src={Joaquin} alt='Joaquin'/> 
     </div>
   )
 }

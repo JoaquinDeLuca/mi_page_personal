@@ -11,11 +11,11 @@ export default function Home() {
     <div className={style.homeContainer} id='home'>
         <div className={style.homeInfo}>
             <span className={style.homeSpan}>Soy Desarrollador Web Full Stack</span>
-            <p className={style.homeP}>Me encanta trabajar en aplicaciones web utilizando tecnologias como MongoDB, Express, React, NodeJS</p>
+            <p className={style.homeP}>Me encanta trabajar en aplicaciones web utilizando tecnologías como MongoDB, Express, React, NodeJS</p>
             <div className={style.homeIconContainer}>
               <Link href='https://www.linkedin.com/in/joaquindeluca/' target='_blank'><Image width={45} className={style.homeImgIcon} src={linkedin} alt='linkedin'/></Link>
-              <Link href='https://github.com/JoaquinDeLuca' target='_blank' ><Image width={45} className={style.homeImgIcon} src={github} alt='Github'/></Link>
-              <Link href='https://drive.google.com/file/d/1tdPWyGDwOOX68flReUL9rX890M3eyMDL/view?usp=share_link' target='_blank'><Image width={45} className={style.homeImgIcon} src={cv} alt='cv'/></Link>
+              <Link href='https://github.com/JoaquinDeLuca' target='_blank'><Image width={45} className={style.homeImgIcon} src={github} alt='Github'/></Link>
+              <Link href='https://drive.google.com/file/d/1fm-oETNU0adTeUrHkz65VF2XhQR4C5pm/view?usp=sharing' target='_blank'><Image width={45} className={style.homeImgIcon} src={cv} alt='cv'/></Link>
             </div>
         </div>
         <Image priority={true} width={280} height={280} className={style.homeImgJoaquin} src={Joaquin} alt='Joaquin'/> 

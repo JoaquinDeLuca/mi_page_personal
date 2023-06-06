@@ -12,7 +12,9 @@ import Bootstrap from 'public/Images/bootstrap.png';
 import Nextjs from 'public/Images/nextjs.png';
 import Postman from 'public/Images/postman.png';
 import Git from 'public/Images/git.png';
-import Typescript from 'public/Images/typescript.png'
+import Typescript from 'public/Images/typescript.png';
+import Tailwind from 'public/Images/tailwind.png';
+import Figma from 'public/Images/figma.png';
 import Image from 'next/image';
 
 export default function technologies() {
@@ -78,6 +80,17 @@ export default function technologies() {
             src: Postman,
             title: "Postman"
         },
+        {
+            id: 13,
+            src: Tailwind,
+            title: "Tailwind"
+        },
+        {
+            id: 14,
+            src: Nextjs,
+            title: "Next"
+        },
+        
     ]
 
 
@@ -99,8 +112,8 @@ export default function technologies() {
                 <h4 className={style.technologiesP}>Estoy aprendiendo...</h4>
             </div>
             <div className={style.technologiesLearning}>
-                <Image className={style.technologiesImg} src={Nextjs} alt='nextjs' />
-                <p className={style.technologiesTitle}>NextJS</p>
+                <Image className={style.technologiesImg} src={Figma} alt='Figma' />
+                <p className={style.technologiesTitle}>Figma y diseño UX-UI </p>
             </div>
             <div className={style.technologiesLearning}>
                 <Image className={style.technologiesImg} src={Typescript} alt='Typescript' />

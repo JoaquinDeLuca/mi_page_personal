@@ -3,6 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root{
+  --DarckBlue: #0f172a;
+  --whiteMore: #D4D4D4;
+  --white:  #EDECEC;
+  --lightblue: #1c2638;
+}
 
 body::-webkit-scrollbar{
   width: 8px;

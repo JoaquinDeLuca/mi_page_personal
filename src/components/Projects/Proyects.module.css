@@ -24,7 +24,6 @@
 .proyectsName{
     color: white;
     font-size: 18px;
-    font-family: Arial;
     margin-left: 10px;
 }
 
@@ -45,6 +44,7 @@
 }
 .proyectsImg{
     width: 100%;
+    height: 100%;
     border-radius: 10px 10px 0 0;
 }
 .proyectsButtons{
@@ -63,8 +63,7 @@
     font-size: 17px;
     transition: 0.3s;
     border-radius: 10px;
-    font-family: Arial;
-    font-weight: 600;
+    font-weight: 700;
     margin: 10px;
     cursor: pointer;
     transition: 0.3s all;

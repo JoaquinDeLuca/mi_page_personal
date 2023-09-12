@@ -1,5 +1,5 @@
 import style from './Home.module.css'
-import Joaquin from 'public/Images/Joaquin-De-Luca.png';
+import Joaquin from 'public/Images/joaquin.png'
 import cv from 'public/Images/cv04.png';
 import linkedin from 'public/Images/linkedin.png';
 import github from 'public/Images/github2.png';
@@ -18,7 +18,7 @@ export default function Home() {
               <Link href='https://drive.google.com/file/d/1VGKF0wNnAExV90w7cO3PSFeCzCbH_eYe/view?usp=sharing' target='_blank'><Image width={45} className={style.homeImgIcon} src={cv} alt='cv'/></Link>
             </div>
         </div>
-        <Image priority={true} width={280} height={280} className={style.homeImgJoaquin} src={Joaquin} alt='Joaquin'/> 
+        <Image priority={true} width={320} height={320} className={style.homeImgJoaquin} src={Joaquin} alt='Joaquin'/> 
     </div>
   )
 }

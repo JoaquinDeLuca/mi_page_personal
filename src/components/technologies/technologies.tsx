@@ -90,10 +90,18 @@ export default function technologies() {
             src: Nextjs,
             title: "Next"
         },
+        {
+            id: 15,
+            src: Figma,
+            title: "Figma"
+        },
+        {
+            id: 16,
+            src: Typescript,
+            title: "Typescript"
+        },
         
     ]
-
-
 
   return (
     <div className={style.technologies} id='technologies'>
@@ -108,17 +116,13 @@ export default function technologies() {
                     </div>
                 )}
             </div>
-            <div className={style.technologiesLearningOne}>
+            {/* <div className={style.technologiesLearningOne}>
                 <h4 className={style.technologiesP}>Estoy aprendiendo...</h4>
-            </div>
-            <div className={style.technologiesLearning}>
-                <Image className={style.technologiesImg} src={Figma} alt='Figma' />
-                <p className={style.technologiesTitle}>Figma y diseño UX-UI </p>
             </div>
             <div className={style.technologiesLearning}>
                 <Image className={style.technologiesImg} src={Typescript} alt='Typescript' />
                 <p className={style.technologiesTitle}>Typescript</p>
-            </div>
+            </div> */}
         </div>
     </div>
   )

@@ -11,7 +11,7 @@ export default function Home() {
     <div className={style.homeContainer} id='home'>
         <div className={style.homeInfo}>
             <span className={style.homeSpan}>Soy Desarrollador Web Full Stack</span>
-            <p className={style.homeP}>Me encanta trabajar en aplicaciones web utilizando tecnologías como MongoDB, Express, React, NodeJS</p>
+            <p className={style.homeP}>Me encanta trabajar en aplicaciones web utilizando tecnologías como Next.js, MongoDB, Express y Node.js.</p>
             <div className={style.homeIconContainer}>
               <Link href='https://www.linkedin.com/in/joaquindeluca/' target='_blank'><Image width={45} className={style.homeImgIcon} src={linkedin} alt='linkedin'/></Link>
               <Link href='https://github.com/JoaquinDeLuca' target='_blank'><Image width={45} className={style.homeImgIcon} src={github} alt='Github'/></Link>

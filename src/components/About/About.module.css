@@ -4,22 +4,24 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 94vh;
+    min-height: 94vh;
 }
 .aboutContainer{
     max-width: 70rem;
     padding: 10px;
+    text-align: center;
 }
 .aboutH2{
     color: white;
     margin: 10px 0;
     text-decoration: underline;
-    text-align: center;
 }
 .aboutP{
     color: white;
     margin: 12px 0;
     font-size: 18px;
-    text-align: center; 
+    text-align: left; 
     max-width: 75ch;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
 }

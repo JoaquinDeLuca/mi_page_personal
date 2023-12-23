@@ -18,6 +18,24 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
+@keyframes show {
+    0% {
+        opacity: 0;
+        transform: scale(0.25);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scale(0.75);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
 .technologiesH2{
     color: white;
     text-decoration: underline;
@@ -46,14 +64,28 @@
     transition: all 0.5s;
 
 }
-.technologiesCard:hover{
+/* .technologiesCard:hover{
     transform: scale(1.1);
-}
+} */
 .technologiesImg{
     width: 30%;
     height: 80%;
     margin-right: 5px;
 }
+
+.technologiesCard{
+    view-timeline-name: --image;
+    view-timeline-axis: block;  /* eje vertical sino inline horizontal */
+
+    animation-timeline: --image; /* Este es el enlace entre el scroll y el elemento image */
+
+    animation-name: show;  /* la animacion que creamos con el keyFrame  */
+
+    animation-range: entry 25% cover 50%;  /* el rango en el que quiero que la imagen/card se muestre el 100%  */
+
+    animation-fill-mode: both; /* para que la animacion vaya en los dos sentidos */
+}
+
 .technologiesTitle{
     color: white;
     margin: 10px 0 0 0 ;

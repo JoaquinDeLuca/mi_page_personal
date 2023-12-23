@@ -1,16 +1,20 @@
 "use client";
-import { FormEvent, useRef } from "react";
+import { FormEvent, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import style from "./Contact.module.css";
 import Link from "next/link";
+import Toast from '../toast/toast'
 
 export default function Contact() {
   const form = useRef<HTMLFormElement>(null);
 
+  const [toast, setToast] = useState(false);
+  const [message, setMessage] = useState("");
+
   const sendEmail = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    if(form.current){
+    if (form.current) {
       emailjs
         .sendForm(
           process.env.NEXT_PUBLIC_SERVICE_ID!,
@@ -20,18 +24,27 @@ export default function Contact() {
         )
         .then(
           (resul) => {
-            alert("Su email se envio con exito " + resul.text);
+            resul.status == 200 ?
+              (setMessage("El email se envió con éxito."))
+              :
+              (setMessage(resul.text || "Ha ocurrido un error, intente nuevamente."))
+
+            setToast(true);
           },
           (error) => {
-            console.log(error.text);
+            setMessage(error.text || "Ha ocurrido un error, intente nuevamente.");
+            setToast(true);
           }
         );
       form.current.reset();
     }
   };
 
+  const onCloseToast = () => setToast(prev => !prev)
+
   return (
     <div className={style.contact} id="contact">
+      {toast && <Toast message={message} show={toast} onClose={onCloseToast} />}
       <div className={style.contactContainer}>
         <h2 className={style.contactH2}>Contacto</h2>
         <p className={style.p}>

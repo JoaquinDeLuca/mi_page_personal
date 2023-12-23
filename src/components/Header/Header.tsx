@@ -24,7 +24,7 @@ export default function Header() {
         {
             id: 3,
             nameNav: 'Proyectos',
-            link:'proyects'
+            link:'projects'
         },
         {
             id: 4,

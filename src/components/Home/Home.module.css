@@ -37,7 +37,7 @@
     /* font-family: monospace; */
     white-space: nowrap;
     border-right: 3px solid;
-    width: 27ch;
+    width: 32ch;
     animation: typing 2.5s steps(33), 
     blink .5s infinite step-end alternate;
     overflow:hidden;
@@ -55,10 +55,16 @@
         font-size: 33px;
         margin-bottom: 0;
     }
+    .homeP{
+        margin-top: .5rem;
+    }
 }
 @media (min-width:1024px) {
     .homeContainer{
         flex-direction: row;
+    }
+    .homeSpan{
+        width: 27ch;
     }
     .homeImgJoaquin{
         width: 360px;

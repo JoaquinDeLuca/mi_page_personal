@@ -23,7 +23,7 @@ export default function technologies() {
         {
             id: 1,
             src: Html,
-            title: "HTMl"
+            title: "HTML"
         },
         {
             id: 2,

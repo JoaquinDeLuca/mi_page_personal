@@ -17,7 +17,7 @@
       {
         "id": 2,
         "name": "Surface",
-        "link": "https://surface-ashen.vercel.app/",
+        "link": "https://surface-beta.vercel.app/",
         "repo": "https://github.com/JoaquinDeLuca/surface",
         "src": "/Images/Surface.png",
         "tech": [

@@ -8,8 +8,8 @@ export default function Projects() {
     return (
         <div className={style.projects} id='projects'>
             <div className={style.projectsContainer}>
-                <h2 className={style.projectsH2}>Proyectos</h2>
-                <p className={style.projectsP}>Mis proyectos hasta ahora</p>
+                {/* <h2 className={style.projectsH2}>Proyectos</h2> */}
+                <p className={style.projectsP}>Algunos de los proyectos que he desarrollado</p>
                 {projectsJson.map((project) =>
                     <div key={project.id} className={style.projectsContainerCard}>
                         <div className={style.projectsImgContainer}>

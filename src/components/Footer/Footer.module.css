@@ -2,7 +2,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--DarckBlue);
+    background-color: var(--darkBlue);
     color: white;
     height: 8vh;
+    padding: 2rem;
+}
+
+.footer > p {
+    text-wrap: balance;
+    text-align: center;
+    line-height: 1.8;
 }

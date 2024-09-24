@@ -1,0 +1,33 @@
+[
+    {
+        "id": 0,
+        "position":"Principal Frontend Developer",
+        "place": "Web App de Gestión y Control de Envíos | Freelance",
+        "date": "enero 2024 - presente.",
+        "description": "Desde el inicio, trabajé en el desarrollo de funcionalidades clave como el CRUD de usuarios, presupuestos, cargas, formularios con geolocalización y validaciones. También me he enfocado en crear y optimizar componentes reutilizables. Actualmente, seguimos mejorando la aplicación, agregando pequeñas funcionalidades y refinando la experiencia del usuario.",
+        "link": null
+    },
+    {
+        "id": 1,
+        "position":"Developer Frontend",
+        "place": "Invitacón web | Para cliente",
+        "date": "Enero 2024.",
+        "description": "Un cliente me pidió diseñar una invitación web para su casamiento. Creé una página personalizada con los colores y fotos que eligió, mostrando el lugar de la ceremonia, contador regresivo, enlace a WhatsApp para confirmar asistencia. Todo el diseño reflejaba su estilo y lo que quería."
+    },
+    {
+        "id": 2,
+        "position":"Developer Frontend",
+        "place": "Tienda de pedidos | Para cliente",
+        "date": "Diciembre 2023.",
+        "description": "Un cliente necesitaba una web para mostrar sus productos y recibir pedidos por WhatsApp. Desarrollé la tienda con Next.js, integrando un sistema que gestiona productos a partir de un archivo Excel. Implementé un carrito de compras que permite a los usuarios seleccionar productos y cantidades, enviando toda la información directamente al WhatsApp del cliente.",
+        "link": "https://tienda-jdum.vercel.app/"
+    },
+    {
+        "id": 3,
+        "position":"Principal Frontend Developer",
+        "place": "Plataforma web | Freelance",
+        "date": "marzo - noviembre de 2023. ",
+        "description": "Desde el inicio hasta la conclusión del proyecto, formé parte activa del equipo utilizando: Next.js, Tailwind, Hook Form y Docker como tecnologías clave en el desarrollo. Trabajando bajo metodologías ágiles SCRUM, centrándome en implementar funcionalidades esenciales y adaptándome con destreza a las cambiantes necesidades del proyecto.",
+        "link": null
+    }
+]

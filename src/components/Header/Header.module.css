@@ -1,6 +1,6 @@
 .header{
     width: 100%;
-    background-color: var(--DarckBlue);
+    background-color: var(--darkBlue);
     padding: 1rem;
     display: flex;
     flex-flow: row wrap;

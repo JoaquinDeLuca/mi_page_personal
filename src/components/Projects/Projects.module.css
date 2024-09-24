@@ -1,5 +1,5 @@
 .projects{
-    background-color: var(--DarckBlue);
+    background-color: var(--darkBlue);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,7 +18,7 @@
 .projectsP{
     width: 100%;
     color: white;
-    margin-bottom: 20px;
+    margin: 2rem 0;
     text-align: center;
 }
 .projectsName{

@@ -6,11 +6,17 @@
         "repo": "https://github.com/JoaquinDeLuca/store",
         "src": "/Images/Speakershop.png",
         "tech": [
+            "Frontend",
             "HTML",
             "CSS",
             "TypeScript",
             "Next.js",
-            "JWT"
+            "Redux",
+            "Backend",
+            "JWT",
+            "bcrypt.js",
+            "cookie",
+            "mongoose"
         ],
         "description": "Proyecto personal diseñado para potenciar mi comprensión de Next.js. La motivación detrás de este eCommerce era desentrañar los detalles de Next.js y fortalecer mis habilidades en este framework. Con un enfoque claro en la interfaz simple, el proyecto destaca por la navegación fluida y las transacciones. Al reflexionar sobre este desafío, logré consolidar mis habilidades en Next.js, alcanzando una comprensión técnica más elevada."
     },
@@ -21,12 +27,20 @@
         "repo": "https://github.com/JoaquinDeLuca/surface",
         "src": "/Images/Surface.png",
         "tech": [
+            "Frontend",
             "HTML",
             "CSS",
             "JavaScript",
             "React",
             "React Router",
-            "Redux ToolKit"
+            "Redux ToolKit",
+            "Sweetalert",
+            "Backend",
+            "Express",
+            "JWT",
+            "Nodemailer",
+            "Passport",
+            "Mercado Pago"
         ],
         "description": "Fue un desafío emocionante: crear una web desde cero, abarcando frontend y backend. Permite a los egresados elegir sus camperas y chombas personalizada. La particularidad radica en que, al realizar una compra, participan en la competencia por un viaje pagado, ganando aquellos con la promo más popular (mayor cantidad de likes). Trabajar en este proyecto fue gratificante, cumplimos con éxito la fecha límite para presentar todas las funcionalidades."
     },
@@ -37,12 +51,20 @@
         "repo": "https://github.com/JoaquinDeLuca/mytinerary-web",
         "src": "/Images/Mytinerary.png",
         "tech": [
+            "Frontend",
             "HTML",
             "CSS",
             "JavaScript",
             "React",
             "React Router",
-            "Redux ToolKit"
+            "Redux ToolKit",
+            "Axios",
+            "Backend",
+            "Express",
+            "mongoose",
+            "JWT",
+            "Nodemailer",
+            "Passport"
         ],
         "description": "Proyecto que surge como un espacio que permite la creación de itinerarios personalizados, así como también compartir los mismos. Destaca por su interactividad, permitiendo a los usuarios comentar y expresar aprobación con un 'me gusta'. Trabajar en este proyecto, afinó mis habilidades en React para el frontend y en el backend con Node, Express y MongoDB."
     },
@@ -57,7 +79,8 @@
             "JavaScript",
             "React Native",
             "React Navigation",
-            "Redux ToolKit"
+            "Redux ToolKit",
+            "Axios"
         ],
         "description": "My Itinerary Mobile, desarrollado en React Native, es mi versión móvil que conserva la funcionalidad interactiva de la plataforma web original. Esta inmersión en React Native no solo expandió mis habilidades, sino que también consolidó mi capacidad para crear experiencias de usuario efectivas en entornos móviles."
     },

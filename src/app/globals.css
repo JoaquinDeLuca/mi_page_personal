@@ -4,17 +4,19 @@
   box-sizing: border-box;
 }
 :root{
-  --DarckBlue: #0f172a;
+  --maxWidth: 70rem;
+  --darkBlue: #0f172a;
   --whiteMore: #D4D4D4;
   --white:  #EDECEC;
   --lightblue: #1c2638;
+  --yellow: #eef974;
+  /* CCFF00 , F7FF00*/
 }
 
 body::-webkit-scrollbar{
-  width: 8px;
+  width: .5rem;
   background-color: white;
 }
 body::-webkit-scrollbar-thumb{
-  background: rgba(40, 41, 43, 0.757);
-  border-radius: 50px;
+  background: rgba(40, 41, 43, 0.65);
 }

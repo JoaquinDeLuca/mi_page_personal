@@ -70,7 +70,7 @@
         transition: all .5s ease;
     }
     .headerNav.active{
-        height: 26vh;
+        height: 30vh;
         opacity: 1;
         margin: .9rem;
         z-index: 1;

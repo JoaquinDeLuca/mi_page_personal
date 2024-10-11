@@ -15,7 +15,7 @@ export default function Home() {
         <div className={style.homeIconContainer}>
           <Link href='https://www.linkedin.com/in/joaquindeluca/' target='_blank'><Image width={45} className={style.homeImgIcon} src={linkedin} alt='linkedin' /></Link>
           <Link href='https://github.com/JoaquinDeLuca' target='_blank'><Image width={45} className={style.homeImgIcon} src={github} alt='Github' /></Link>
-          <Link href='https://drive.google.com/file/d/1yXbozCrwL8G59uiUIZeO_buXL3RpksUa/view?usp=sharing' target='_blank'><Image width={45} className={style.homeImgIcon} src={cv} alt='cv' /></Link>
+          <Link href='https://drive.google.com/file/d/1c1DlNSNdS19xHQmO7Js6XQNs6eg8kMuZ/view?usp=sharing' target='_blank'><Image width={45} className={style.homeImgIcon} src={cv} alt='cv' /></Link>
         </div>
       </div>
       <Image priority={true} width={320} height={320} className={style.homeImgJoaquin} src={Joaquin} alt='Joaquin' />

@@ -5,7 +5,7 @@ import Projects from '../Projects/Projects';
 import Experience from '../Experience/Experience';
 
 export default function Tabs() {
-  const [activeTab, setActiveTab] = useState(0);
+  const [activeTab, setActiveTab] = useState(1);
 
   const handleTabClick = (index: number) => {
     setActiveTab(index);

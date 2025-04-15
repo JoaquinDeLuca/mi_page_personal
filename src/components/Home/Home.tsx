@@ -1,8 +1,8 @@
 import style from './Home.module.css'
-import Joaquin from 'public/Images/joaquin.png'
-import cv from 'public/Images/cv04.png';
-import linkedin from 'public/Images/linkedin.png';
-import github from 'public/Images/github2.png';
+import Joaquin from 'public/Images/joaquin.webp'
+import cv from 'public/Images/cv04.webp';
+import linkedin from 'public/Images/linkedin.webp';
+import github from 'public/Images/github2.webp';
 import Image from 'next/image';
 import Link from 'next/link';
 

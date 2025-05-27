@@ -13,7 +13,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Joaquin De Luca",
   description:
-    "Descubre el trabajo y habilidades de Joaquin en su portfolio personal. Diseño, desarrollo web y más.",
+    "Descubre el trabajo y habilidades de Joaquin en su portafolio personal. Diseño, desarrollo web y más.",
   keywords: [
     "Next.js",
     "React",

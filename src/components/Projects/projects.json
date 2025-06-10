@@ -18,9 +18,10 @@
             "cookie",
             "mongoose"
         ],
-        "description": "Proyecto personal diseñado para potenciar mi comprensión de Next.js. La motivación detrás de este eCommerce era desentrañar los detalles de Next.js y fortalecer mis habilidades en este framework. Con un enfoque claro en la interfaz simple, el proyecto destaca por la navegación fluida y las transacciones. Al reflexionar sobre este desafío, logré consolidar mis habilidades en Next.js, alcanzando una comprensión técnica más elevada."
+        "description": "Proyecto personal diseñado para potenciar mi comprensión de Next.js. La motivación detrás de este eCommerce era desentrañar los detalles de Next.js y fortalecer mis habilidades en este framework. Con un enfoque claro en la interfaz simple, el proyecto destaca por la navegación fluida y las transacciones. Al reflexionar sobre este desafío, logré consolidar mis habilidades en Next.js, alcanzando una comprensión técnica más elevada.",
+        "show": true
     },
-      {
+    {
         "id": 2,
         "name": "Surface",
         "link": "https://surface-beta.vercel.app/",
@@ -42,7 +43,8 @@
             "Passport",
             "Mercado Pago"
         ],
-        "description": "Fue un desafío emocionante: crear una web desde cero, abarcando frontend y backend. Permite a los egresados elegir sus camperas y chombas personalizada. La particularidad radica en que, al realizar una compra, participan en la competencia por un viaje pagado, ganando aquellos con la promo más popular (mayor cantidad de likes). Trabajar en este proyecto fue gratificante, cumplimos con éxito la fecha límite para presentar todas las funcionalidades."
+        "description": "Fue un desafío emocionante: crear una web desde cero, abarcando frontend y backend. Permite a los egresados elegir sus camperas y chombas personalizada. La particularidad radica en que, al realizar una compra, participan en la competencia por un viaje pagado, ganando aquellos con la promo más popular (mayor cantidad de likes). Trabajar en este proyecto fue gratificante, cumplimos con éxito la fecha límite para presentar todas las funcionalidades.",
+        "show": true
     },
     {
         "id": 3,
@@ -66,7 +68,8 @@
             "Nodemailer",
             "Passport"
         ],
-        "description": "Proyecto que surge como un espacio que permite la creación de itinerarios personalizados, así como también compartir los mismos. Destaca por su interactividad, permitiendo a los usuarios comentar y expresar aprobación con un 'me gusta'. Trabajar en este proyecto, afinó mis habilidades en React para el frontend y en el backend con Node, Express y MongoDB."
+        "description": "Proyecto que surge como un espacio que permite la creación de itinerarios personalizados, así como también compartir los mismos. Destaca por su interactividad, permitiendo a los usuarios comentar y expresar aprobación con un 'me gusta'. Trabajar en este proyecto, afinó mis habilidades en React para el frontend y en el backend con Node, Express y MongoDB.",
+        "show": true
     },
     {
         "id": 4,
@@ -82,7 +85,8 @@
             "Redux ToolKit",
             "Axios"
         ],
-        "description": "My Itinerary Mobile, desarrollado en React Native, es mi versión móvil que conserva la funcionalidad interactiva de la plataforma web original. Esta inmersión en React Native no solo expandió mis habilidades, sino que también consolidó mi capacidad para crear experiencias de usuario efectivas en entornos móviles."
+        "description": "My Itinerary Mobile, desarrollado en React Native, es mi versión móvil que conserva la funcionalidad interactiva de la plataforma web original. Esta inmersión en React Native no solo expandió mis habilidades, sino que también consolidó mi capacidad para crear experiencias de usuario efectivas en entornos móviles.",
+        "show": false
     },
     {
         "id": 5,
@@ -96,10 +100,9 @@
             "TypeScript",
             "React"
         ],
-        "description": "Esta aplicación surgió de un desafío que buscaba generar una herramienta sencilla pero útil. Su puntal es la capacidad de crear códigos QR de enlaces a sitios web, redes sociales y más. De esta forma permite compartir contenidos de manera fácil e intuitiva. Trabajar en su desarrollo resultó una experiencia entretenida y satisfactoria."
+        "description": "Esta aplicación surgió de un desafío que buscaba generar una herramienta sencilla pero útil. Su puntal es la capacidad de crear códigos QR de enlaces a sitios web, redes sociales y más. De esta forma permite compartir contenidos de manera fácil e intuitiva. Trabajar en su desarrollo resultó una experiencia entretenida y satisfactoria.",
+        "show": true
     },
-
-
     {
         "id": 6,
         "name": "Petshop",
@@ -112,6 +115,7 @@
             "Bootstrap",
             "JavaScript"
         ],
-        "description": "La idea inicial era sencilla: implementar una tienda que ofrezca todo lo necesario para las mascotas, desde alimentos y artículos de higiene hasta remedios y accesorios. Trabajar en PetShop resultó una experiencia enriquecedora que fortaleció mis habilidades con JavaScript."
+        "description": "La idea inicial era sencilla: implementar una tienda que ofrezca todo lo necesario para las mascotas, desde alimentos y artículos de higiene hasta remedios y accesorios. Trabajar en PetShop resultó una experiencia enriquecedora que fortaleció mis habilidades con JavaScript.",
+        "show": false
     }
 ]

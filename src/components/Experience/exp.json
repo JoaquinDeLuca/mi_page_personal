@@ -4,7 +4,7 @@
         "position":"Developer Full stack",
         "place": "Jimbo | Freelance",
         "date": "Diciembre 2024 - actualidad.",
-        "description": "Me uní a una plataforma educativa que evalúa la salud mental de alumnos según la NOM-035. Propuse e implementé mejoras en la arquitectura del frontend, organización y refactorización del código, y creación de componentes reutilizables. Desarrollé funcionalidades como CRUD de perfiles, reservas de citas, pagos con PayPal y gráficas para detectar posibles casos de depresión. Actualmente seguimos incorporando nuevas funcionalidades.",
+        "description": "Me uní a una plataforma educativa que evalúa la salud mental de alumnos a través de ciertos cuestionarios, test y especialistas. Propuse e implementé mejoras en la arquitectura del frontend, organización y refactorización del código, y creación de componentes reutilizables. Desarrollé funcionalidades como CRUD de perfiles, reservas de citas, pagos con PayPal, gráficas, etc. Actualmente, seguimos incorporando nuevas funcionalidades.",
         "link": null
     },
     {

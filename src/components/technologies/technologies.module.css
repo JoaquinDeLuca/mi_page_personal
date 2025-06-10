@@ -1,9 +1,10 @@
-.technologies{
+.technologies {
     background-color: #1c2638;
     /* background-color: lightblue; */
-    padding-top:15px;
+    padding-top: 15px;
 }
-.technologiesContainer{
+
+.technologiesContainer {
     max-width: 70rem;
     padding: 10px;
     display: flex;
@@ -12,7 +13,8 @@
     flex-wrap: wrap;
     /* background-color: lightgreen; */
 }
-.technologiesCardContainer{
+
+.technologiesCardContainer {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -36,20 +38,22 @@
     }
 }
 
-.technologiesH2{
+.technologiesH2 {
     color: white;
     text-decoration: underline;
     text-align: center;
     width: 100%;
 }
-.technologiesP{
+
+.technologiesP {
     color: white;
     font-size: 18px;
     text-align: center;
-    margin: 30px  0;
+    margin: 30px 0;
     width: 100%;
 }
-.technologiesCard{
+
+.technologiesCard {
     background-color: #0f172a;
     display: flex;
     flex-direction: column;
@@ -62,35 +66,42 @@
     width: 35%;
     box-shadow: 0px 5px 10px 3px #1b2f61;
     transition: all 0.5s;
-
 }
+
 /* .technologiesCard:hover{
     transform: scale(1.1);
 } */
-.technologiesImg{
+.technologiesImg {
     width: 30%;
     height: 80%;
-    margin-right: 5px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
 }
 
-.technologiesCard{
+.technologiesCard {
     view-timeline-name: --image;
-    view-timeline-axis: block;  /* eje vertical sino inline horizontal */
+    view-timeline-axis: block;
+    /* eje vertical sino inline horizontal */
 
-    animation-timeline: --image; /* Este es el enlace entre el scroll y el elemento image */
+    animation-timeline: --image;
+    /* Este es el enlace entre el scroll y el elemento image */
 
-    animation-name: show;  /* la animacion que creamos con el keyFrame  */
+    animation-name: show;
+    /* la animacion que creamos con el keyFrame  */
 
-    animation-range: entry 25% cover 50%;  /* el rango en el que quiero que la imagen/card se muestre el 100%  */
+    animation-range: entry 25% cover 50%;
+    /* el rango en el que quiero que la imagen/card se muestre el 100%  */
 
-    animation-fill-mode: both; /* para que la animacion vaya en los dos sentidos */
+    animation-fill-mode: both;
+    /* para que la animacion vaya en los dos sentidos */
 }
 
-.technologiesTitle{
+.technologiesTitle {
     color: white;
-    margin: 10px 0 0 0 ;
+    margin: 10px 0 0 0;
 }
-.technologiesLearning{
+
+.technologiesLearning {
     margin: auto;
     width: 35%;
     background-color: #0f172a;
@@ -104,10 +115,12 @@
     border: 2px solid #44475a95;
     transition: all 0.5s;
 }
-.technologiesLearning:hover{
+
+.technologiesLearning:hover {
     transform: scale(1.1);
 }
-.technologiesLearningOne{
+
+.technologiesLearningOne {
     margin-top: 10px;
     display: flex;
     width: 100%;
@@ -115,19 +128,23 @@
 }
 
 @media (min-width:1024px) {
-    .technologies{
+    .technologies {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .technologiesContainer{
+
+    .technologiesContainer {
         justify-content: start;
     }
-    .technologiesCard{
-        width: 30%;
+
+    .technologiesCard {
+        width: 25%;
+        /* border: 1px solid red; */
         padding: 10px 0;
     }
-    .technologiesLearning{
+
+    .technologiesLearning {
         width: 30%;
         padding: 10px 0;
     }

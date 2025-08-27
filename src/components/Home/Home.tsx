@@ -1,5 +1,5 @@
 import style from "./Home.module.css";
-import Joaquin from "public/Images/joaquin.webp";
+import Joaquin from "public/Images/joaqui2.webp";
 import cv from "public/Images/cv04.webp";
 import linkedin from "public/Images/linkedin.webp";
 import github from "public/Images/github2.webp";

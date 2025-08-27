@@ -16,6 +16,12 @@
 }
 .homeImgJoaquin{
     margin: 20px;
+    object-fit: contain;
+    aspect-ratio: 16/9;
+    filter: drop-shadow(
+        0 0 20px rgba(0,0,0,0.4)
+    )
+    
 }
 .homeIconContainer{
     margin-top: 15px;

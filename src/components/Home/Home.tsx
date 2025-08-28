@@ -36,7 +36,7 @@ export default function Home() {
             />
           </Link>
           <Link
-            href="https://drive.google.com/file/d/1p8QCnr0q3xygDzOs-ptEYj8h77mnMGT1/view?usp=sharing"
+            href="https://drive.google.com/file/d/1RORRlX8aonEPzkt8XTc9-xAAZsMzAhD4/view?usp=sharing"
             target="_blank"
           >
             <Image width={45} className={style.homeImgIcon} src={cv} alt="cv" />

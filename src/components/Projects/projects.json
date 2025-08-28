@@ -69,7 +69,7 @@
             "Passport"
         ],
         "description": "Proyecto que surge como un espacio que permite la creación de itinerarios personalizados, así como también compartir los mismos. Destaca por su interactividad, permitiendo a los usuarios comentar y expresar aprobación con un 'me gusta'. Trabajar en este proyecto, afinó mis habilidades en React para el frontend y en el backend con Node, Express y MongoDB.",
-        "show": true
+        "show": false
     },
     {
         "id": 4,

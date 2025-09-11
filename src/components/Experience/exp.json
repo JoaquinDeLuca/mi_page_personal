@@ -1,15 +1,15 @@
 [
     {
         "id": 0,
-        "position":"Developer Full stack",
+        "position": "Developer Full stack",
         "place": "Jimbo | Freelance",
-        "date": "Diciembre 2024 - actualidad.",
-        "description": "Me uní a una plataforma educativa que evalúa la salud mental de alumnos a través de ciertos cuestionarios, test y especialistas. Propuse e implementé mejoras en la arquitectura del frontend, organización y refactorización del código, y creación de componentes reutilizables. Desarrollé funcionalidades como CRUD de perfiles, reservas de citas, pagos con PayPal, gráficas, etc. Actualmente, seguimos incorporando nuevas funcionalidades.",
+        "date": "Diciembre 2024 - Septiembre 2025.",
+        "description": "Me uní a una plataforma educativa que evalúa la salud mental de alumnos a través de ciertos cuestionarios, test y especialistas. Propuse e implementé mejoras en la arquitectura del frontend, organización y refactorización del código, y creación de componentes reutilizables. Desarrollé funcionalidades como CRUD de perfiles, reservas de citas, pagos con PayPal, gráficas, etc.",
         "link": null
     },
     {
         "id": 1,
-        "position":"Principal Developer Frontend",
+        "position": "Principal Developer Frontend",
         "place": "Seemple Studio | Freelance",
         "date": "Enero 2024 - marzo 2025.",
         "description": "Desde el inicio, trabajé en el desarrollo de funcionalidades clave como el CRUD de usuarios, presupuestos, cargas, formularios con geolocalización y validaciones. También me he enfocado en crear y optimizar componentes reutilizables. También implementé un sistema de seguimiento de cargas, que permitía visualizar la ubicación en tiempo real de los envíos.",
@@ -17,7 +17,7 @@
     },
     {
         "id": 2,
-        "position":"Developer Frontend",
+        "position": "Developer Frontend",
         "place": "Invitacón web | Cliente directo",
         "date": "Enero 2024.",
         "description": "Un cliente me pidió diseñar una invitación web para su casamiento. Creé una página personalizada con los colores y fotos que eligió, mostrando el lugar de la ceremonia, contador regresivo, enlace a WhatsApp para confirmar asistencia. Todo el diseño reflejaba su estilo y lo que quería.",
@@ -25,7 +25,7 @@
     },
     {
         "id": 3,
-        "position":"Developer Frontend",
+        "position": "Developer Frontend",
         "place": "Tienda de pedidos | Cliente directo",
         "date": "Diciembre 2023.",
         "description": "Un cliente necesitaba una web para mostrar sus productos y recibir pedidos por WhatsApp. Desarrollé la tienda con Next.js, integrando un sistema que gestiona productos a partir de un archivo Excel. Implementé un carrito de compras que permite a los usuarios seleccionar productos y cantidades, enviando toda la información directamente al WhatsApp del cliente.",
@@ -33,7 +33,7 @@
     },
     {
         "id": 4,
-        "position":"Principal Frontend Developer",
+        "position": "Principal Frontend Developer",
         "place": "Seemple Studio | Freelance",
         "date": "Marzo - noviembre de 2023. ",
         "description": "Desde el inicio hasta la conclusión del proyecto, formé parte activa del equipo utilizando: Next.js, Tailwind, Hook Form y Docker como tecnologías clave en el desarrollo. Trabajando bajo metodologías ágiles SCRUM, centrándome en implementar funcionalidades esenciales y adaptándome con destreza a las cambiantes necesidades del proyecto.",

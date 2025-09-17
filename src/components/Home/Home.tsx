@@ -12,8 +12,8 @@ export default function Home() {
       <div className={style.homeInfo}>
         <span className={style.homeSpan}>Soy Desarrollador Web Full Stack</span>
         <p className={style.homeP}>
-          Me encanta trabajar en aplicaciones web utilizando tecnologías como
-          React, MongoDB, Express y Node.js.
+          Me gusta desarrollar aplicaciones web utilizando tecnologías como
+          React, Next.js y Nest.js.
         </p>
         <div className={style.homeIconContainer}>
           <Link

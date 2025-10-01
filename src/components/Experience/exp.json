@@ -2,17 +2,17 @@
     {
         "id": 0,
         "position": "Developer Full stack",
-        "place": "Jimbo | Freelance",
+        "place": "📌 Jimbo",
         "date": "Diciembre 2024 - Septiembre 2025.",
-        "description": "Me uní a una plataforma educativa que evalúa la salud mental de alumnos a través de ciertos cuestionarios, test y especialistas. Propuse e implementé mejoras en la arquitectura del frontend, organización y refactorización del código, y creación de componentes reutilizables. Desarrollé funcionalidades como CRUD de perfiles, reservas de citas, pagos con PayPal, gráficas, etc.",
+        "description": "Me incorporé a una plataforma educativa sobre bienestar estudiantil, trabajando junto a los fundadores en la mejora del producto. Refactoricé la arquitectura del frontend y mejoré la organización del código, además de desarrollar funcionalidades como CRUD de perfiles, reservas, pagos con PayPal y gráficas. Guíe a un dev más junior en buenas prácticas y organización del trabajo, lo que ayudó a mantener la calidad y consistencia del proyecto.",
         "link": null
     },
     {
         "id": 1,
         "position": "Principal Developer Frontend",
-        "place": "Seemple Studio | Freelance",
+        "place": "📌 Seemple Studio",
         "date": "Enero 2024 - marzo 2025.",
-        "description": "Desde el inicio, trabajé en el desarrollo de funcionalidades clave como el CRUD de usuarios, presupuestos, cargas, formularios con geolocalización y validaciones. También me he enfocado en crear y optimizar componentes reutilizables. También implementé un sistema de seguimiento de cargas, que permitía visualizar la ubicación en tiempo real de los envíos.",
+        "description": "Desde el inicio del proyecto, hoy en funcionamiento en varios países, con un rol clave en el desarrollo y la organización del trabajo. Colaboré junto a backend y diseño en funcionalidades como CRUD de usuarios, presupuestos, formularios con geolocalización y tracking en tiempo real. Más allá de la etapa inicial, sigo colaborando en mejoras y mantenimiento, aportando valor de forma continua.",
         "link": null
     },
     {
@@ -34,7 +34,7 @@
     {
         "id": 4,
         "position": "Principal Frontend Developer",
-        "place": "Seemple Studio | Freelance",
+        "place": "📌 Seemple Studio",
         "date": "Marzo - noviembre de 2023. ",
         "description": "Desde el inicio hasta la conclusión del proyecto, formé parte activa del equipo utilizando: Next.js, Tailwind, Hook Form y Docker como tecnologías clave en el desarrollo. Trabajando bajo metodologías ágiles SCRUM, centrándome en implementar funcionalidades esenciales y adaptándome con destreza a las cambiantes necesidades del proyecto.",
         "link": null

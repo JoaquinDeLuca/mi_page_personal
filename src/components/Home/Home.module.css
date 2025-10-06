@@ -1,4 +1,4 @@
-.homeContainer{
+.homeContainer {
     background: #1c2638;
     height: 100vh;
     display: flex;
@@ -7,26 +7,28 @@
     align-items: center;
     padding: 10px;
 }
-.homeInfo{
+
+.homeInfo {
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
-.homeImgJoaquin{
+
+.homeImgJoaquin {
     margin: 20px;
     object-fit: contain;
+    width: 16rem;
     aspect-ratio: 16/9;
-    filter: drop-shadow(
-        0 0 20px rgba(0,0,0,0.4)
-    )
-    
+    filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.4))
 }
-.homeIconContainer{
+
+.homeIconContainer {
     margin-top: 15px;
 }
-.homeImgIcon{
+
+.homeImgIcon {
     margin: 15px;
     color: white;
     transition: all 0.5s;
@@ -34,60 +36,75 @@
     box-shadow: 0px 2px 5px 10px rgba(0, 0, 0, 0.147);
     border-radius: 100%;
 }
-.homeImgIcon:hover{
+
+.homeImgIcon:hover {
     transform: scale(1.2);
 }
-.homeSpan{
+
+.homeSpan {
     font-size: 16px;
     display: block;
     /* font-family: monospace; */
     white-space: nowrap;
     border-right: 3px solid;
     width: 28ch;
-    animation: typing 2.5s steps(33), 
-    blink .5s infinite step-end alternate;
-    overflow:hidden;
+    animation: typing 2.5s steps(33),
+        blink .5s infinite step-end alternate;
+    overflow: hidden;
     margin-bottom: 8px;
 }
+
 @keyframes typing {
-    from { width: 0}
+    from {
+        width: 0
+    }
 }
+
 @keyframes blink {
-    50% { border-color: transparent}
+    50% {
+        border-color: transparent
+    }
 }
 
 @media (min-width:768px) {
-    .homeSpan{
+    .homeSpan {
         font-size: 33px;
         margin-bottom: 0;
     }
-    .homeP{
+
+    .homeP {
         margin-top: .5rem;
     }
 }
+
 @media (min-width:1024px) {
-    .homeContainer{
+    .homeContainer {
         flex-direction: row;
     }
-    .homeSpan{
+
+    .homeSpan {
         width: 27ch;
     }
-    .homeImgJoaquin{
+
+    .homeImgJoaquin {
         width: 360px;
         height: 360px;
     }
-    .homeInfo{
+
+    .homeInfo {
         margin-bottom: 0px;
     }
-    .homeP{
+
+    .homeP {
         font-size: 18px;
     }
-    .homeImgJoaquin{
+
+    .homeImgJoaquin {
         padding: 15px
     }
-    .homeIconContainer{
+
+    .homeIconContainer {
         box-shadow: none;
         border-radius: 0;
     }
 }
-

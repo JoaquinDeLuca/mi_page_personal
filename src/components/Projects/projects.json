@@ -1,5 +1,25 @@
 [
     {
+        "id": 7,
+        "name": "Cotizador",
+        "link": "https://cotizador-neon-five.vercel.app/auth/login",
+        "repo": "https://github.com/JoaquinDeLuca/Cotizador",
+        "src": "/Images/cotizador.webp",
+        "tech": [
+            "Tailwind",
+            "Ant Design",
+            "TypeScript",
+            "React",
+            "Context API",
+            "Next.js",
+            "Prisma",
+            "PostgreSQL",
+            "JWT"
+        ],
+        "description": "Proyecto desarrollado para poner en practica mis conocimientos en Prisma. Implementé un cotizador sencillo que permite administrar clientes, productos / servicios y generar cotizaciones en PDF. Con este ejercicio logré comprender mejor la gestión y el modelado de datos utilizando Prisma en un flujo básico",
+        "show": true
+    },
+    {
         "id": 0,
         "name": "Speaker Shop",
         "link": "https://store-five-pied.vercel.app/",
@@ -101,7 +121,7 @@
             "React"
         ],
         "description": "Esta aplicación surgió de un desafío que buscaba generar una herramienta sencilla pero útil. Su puntal es la capacidad de crear códigos QR de enlaces a sitios web, redes sociales y más. De esta forma permite compartir contenidos de manera fácil e intuitiva. Trabajar en su desarrollo resultó una experiencia entretenida y satisfactoria.",
-        "show": true
+        "show": false
     },
     {
         "id": 6,

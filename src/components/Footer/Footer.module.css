@@ -1,14 +1,14 @@
-.footer{
+.footer {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--darkBlue);
     color: white;
     height: 8vh;
-    padding: 2rem;
+    padding: 2.5rem;
 }
 
-.footer > p {
+.footer>p {
     text-wrap: balance;
     text-align: center;
     line-height: 1.8;

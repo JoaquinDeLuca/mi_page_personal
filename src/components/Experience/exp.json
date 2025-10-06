@@ -16,14 +16,6 @@
         "link": null
     },
     {
-        "id": 2,
-        "position": "Developer Frontend",
-        "place": "Invitacón web | Cliente directo",
-        "date": "Enero 2024.",
-        "description": "Un cliente me pidió diseñar una invitación web para su casamiento. Creé una página personalizada con los colores y fotos que eligió, mostrando el lugar de la ceremonia, contador regresivo, enlace a WhatsApp para confirmar asistencia. Todo el diseño reflejaba su estilo y lo que quería.",
-        "link": null
-    },
-    {
         "id": 3,
         "position": "Developer Frontend",
         "place": "Tienda de pedidos | Cliente directo",

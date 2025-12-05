@@ -4,9 +4,9 @@
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
-    "next": "^15.5.2",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
+    "next": "^15.5.7",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
     "react-scroll": "^1.9.3"
   },
   "scripts": {
@@ -16,7 +16,8 @@
   },
   "devDependencies": {
     "@types/node": "^24.3.0",
-    "@types/react": "^19.1.11",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
     "@types/react-scroll": "^1.8.10",
     "typescript": "^5.9.2"
   }
